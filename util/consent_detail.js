@@ -43,7 +43,7 @@ const createData = (mobileNumber) => {
       },
       fiTypes: ["DEPOSIT"],
     },
-    redirectUrl: "https://docs.setu.co/data/account-aggregator/fi-data-types",
+    redirectUrl: "https://127.0.0.1:3001/result",
   });
 
   return data;
