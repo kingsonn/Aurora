@@ -1,8 +1,3 @@
-/**
- * app.js
- * Express Example. Created by Aditya Gannavarapu (https://github.com/aditya-67)
- */
-
 // create an express app
 const express = require("express");
 const cors = require("cors");
@@ -139,4 +134,4 @@ app.get("/get-data", (req, res) => {
   res.send(JSON.parse(localStorage.getItem("jsonData")));
 });
 // start the server listening for requests
-app.listen(3000, () => console.log("Server is running..."));
+app.listen(config.port || 3000, () => console.log("Server is running..."));
