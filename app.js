@@ -55,6 +55,7 @@ app.get("/consent/:mobileNumber", (req, res) => {
 
 app.post("/notification", (req, res) => {
   var body = req.body;
+  console.log(body)
   if (body.type === "CONSENT_STATUS_UPDATE") {
     if (body.data.status === "ACTIVE") {
       console.log("In Consent notification");
