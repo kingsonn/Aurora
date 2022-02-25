@@ -43,7 +43,7 @@ const createData = (mobileNumber) => {
       },
       fiTypes: ["DEPOSIT"],
     },
-    redirectUrl: "https://127.0.0.1:3001",
+    redirectUrl: "https://www.youtube.com/watch?v=4UZrsTqkcW4&t=3s",
   });
 
   return data;
