@@ -43,7 +43,7 @@ const createData = (mobileNumber) => {
       },
       fiTypes: ["DEPOSIT"],
     },
-    redirectUrl: "http://127.0.0.1:3000/result",
+    redirectUrl: "http://127.0.0.1:3000/#/admin/dashboard",
   });
 
   return data;
